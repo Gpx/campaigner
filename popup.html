@@ -1,0 +1,26 @@
+<style>
+  body{
+    width: 400px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    font-size: 18px;
+  }
+</style>
+
+<div class="container">
+  <label for="url">Original url:</label> <input type="url" id="url" />
+  <label for="source">Source:</label> <input id="source" />
+  <label for="medium">Medium:</label> <input id="medium" />
+  <label for="campaign">Campaign:</label> <input id="campaign" />
+  <hr/>
+  <label for="output">Output:</label>
+  <input id="output" readonly />
+</div>
+
+<script src="popup.js"></script>
